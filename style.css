@@ -4,7 +4,7 @@ body {
 .container {
     width: 100%;
     max-width: 1600px;
-    min-width: 1400px;
+    min-width: 1480px;
     margin: 0 auto;
     padding: 12px 12px;
 }
@@ -18,7 +18,7 @@ header {
 }
 a {
     margin-top: 1px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px;
     color: #fff;
     display: inline-block;
@@ -37,14 +37,14 @@ a {
 }
 .left_section,
 .right_section {
-    height: calc(100vh - 10rem - 12px);
-    min-height: 15rem;
+    height: calc(100vh - 10rem - 36px);
+    min-height: 14rem;
 }
 .left_section {
-    width: 60%;
+    width: 75%;
 }
 .right_section {
-    width: 40%;
+    width: 25%;
     padding-left: 10px;
 }
 .text_box {
@@ -52,21 +52,27 @@ a {
     height: 100%;
     border-right: 15px solid rgb(235, 132, 35);
     padding: 30px 10px 30px 30px;
+    color: #fff;
+    font-size: 20px;
 }
 .reklama1,
 .reklama2,
 .reklama3,
 .reklama4 {
     background-color: rgb(38, 78, 97);
-}
-.reklama1,
-.reklama2,
-.reklama3,
-.reklama4 {
     height: 20%;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
 }
 .contact {
     height: 5rem;
     background-color: rgb(15, 115, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
