@@ -4,6 +4,7 @@ body {
 .container {
     width: 100%;
     max-width: 1600px;
+    min-width: 1400px;
     margin: 0 auto;
     padding: 12px 12px;
 }
@@ -15,19 +16,19 @@ header {
     height: 5vw;
     margin-bottom: 10px;
 }
-nav a {
+a {
     margin-top: 1px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
     color: #fff;
     display: inline-block;
     text-decoration: none;
     padding: 0 13px;
 }
-.e,
-.g,
-.h,
-.i {
+.reklama2,
+.reklama3,
+.reklama4,
+.contact {
     border-top: 10px solid rgb(241, 241, 132);
 }
 .middle {
@@ -35,15 +36,16 @@ nav a {
     flex-wrap: wrap;
 }
 .left_section,
-.blue {
+.right_section {
     height: calc(100vh - 10rem - 12px);
     min-height: 15rem;
 }
 .left_section {
     width: 60%;
 }
-.blue {
+.right_section {
     width: 40%;
+    padding-left: 10px;
 }
 .text_box {
     background-color: rgb(79, 173, 70);
@@ -51,20 +53,20 @@ nav a {
     border-right: 15px solid rgb(235, 132, 35);
     padding: 30px 10px 30px 30px;
 }
-.d,
-.e,
-.g,
-.h {
-    background-color: blue;
+.reklama1,
+.reklama2,
+.reklama3,
+.reklama4 {
+    background-color: rgb(38, 78, 97);
 }
-.d,
-.e,
-.g,
-.h {
-    height: 15%;
+.reklama1,
+.reklama2,
+.reklama3,
+.reklama4 {
+    height: 20%;
 }
-.i {
+.contact {
     height: 5rem;
-    background-color: lightskyblue;
+    background-color: rgb(15, 115, 177);
 }
 
