@@ -4,7 +4,6 @@ body {
 .container {
     width: 100%;
     max-width: 1600px;
-    min-width: 1480px;
     margin: 0 auto;
     padding: 12px 12px;
 }
@@ -13,7 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(83, 174, 235);
-    height: 5vw;
+    height: 68px;
     margin-bottom: 10px;
 }
 a {
@@ -54,6 +53,7 @@ a {
     padding: 30px 10px 30px 30px;
     color: #fff;
     font-size: 20px;
+    overflow: hidden;
 }
 .reklama1,
 .reklama2,
